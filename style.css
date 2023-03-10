@@ -1,0 +1,83 @@
+/** @format */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  padding-top: 70px;
+  background: linear-gradient(rgba(3, 2, 2, 0.73), black);
+}
+.project__links {
+  text-decoration: none;
+  color: black;
+}
+.cvbutoon {
+  text-decoration: none;
+  color: white;
+}
+.cvbutoon:hover {
+  background-color: rgba(135, 206, 250, 0.721);
+  border-radius: 40px;
+}
+.nav-link {
+  color: cornsilk;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.image {
+  height: 700px;
+  width: 350px;
+}
+.home {
+  height: 100vh;
+}
+.intro {
+  max-width: 50vw;
+}
+.btn {
+  border-radius: 40px;
+  background-color: lightskyblue;
+}
+#about {
+  background: linear-gradient(to right, #434343 0%, black 100%);
+}
+#skill {
+  padding-top: 56px;
+  height: 100vh;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.navbar {
+  background: transparent !important;
+} /*
+.navbar:hover {
+  opacity: 1 !important;
+} */
+
+#projects {
+  padding-top: 56px;
+  height: fit-content;
+  background: linear-gradient(to center, #434343 0%, black 100%);
+}
+#contact {
+  padding-top: 56px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+  height: 100vh;
+}
+.my-h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.wc {
+  background-color: #1d1e29;
+}
+.about {
+  height: 100vh;
+  background: rgb(40, 59, 59);
+}
+.nums {
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
